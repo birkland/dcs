@@ -1087,6 +1087,19 @@
       
       <dependency>
         <groupId>org.springframework</groupId>
+        <artifactId>spring-oxm</artifactId>
+        <version>${dcs.project.spring.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <!--version>1.0.4</version-->
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
         <artifactId>spring-jdbc</artifactId>
         <version>${dcs.project.spring.version}</version>
       </dependency>

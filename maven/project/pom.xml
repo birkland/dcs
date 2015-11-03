@@ -88,7 +88,7 @@
     <!-- Version of XStream in use -->
     <dcs.project.xstream.version>1.4.7</dcs.project.xstream.version>
     <!-- Version of XPP3 in use -->
-    <dcs.project.xpp3.version>1.1.4c</dcs.project.xpp3.version>
+    <dcs.project.xpp3.version>1.1.6</dcs.project.xpp3.version>
     <!-- Version of Apache commons-io in use -->
     <dcs.project.commonsio.version>2.4</dcs.project.commonsio.version>
     <!-- Version of Apache commons-cli in use -->
@@ -579,7 +579,13 @@
         <artifactId>xpp3_min</artifactId>
         <version>${dcs.project.xpp3.version}</version>
       </dependency>
-      
+
+      <!-- XPP version 1.1.5+ is now under a new group id -->
+      <dependency>
+        <groupId>org.ogce</groupId>
+        <artifactId>xpp3</artifactId>
+        <version>${dcs.project.xpp3.version}</version>
+      </dependency>
 
       <!--
         | Testing related dependencies (JUnit, Mockito, XMLUnit, etc.)

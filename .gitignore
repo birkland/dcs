@@ -17,3 +17,4 @@ release.properties
 *.bak
 bin/
 .gitattributes
+.gitignore

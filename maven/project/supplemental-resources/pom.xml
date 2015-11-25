@@ -7,10 +7,8 @@
   -->
   
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.dataconservancy</groupId>
   <artifactId>supplemental-resources</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.2-SNAPSHOT</version>
   <name>Supplemental project information</name>
   <description>Contains supplemental project information for POMs that have incomplete metadata, such as licence information, project names, and urls.</description>
   
@@ -19,7 +17,7 @@
   <parent>
     <groupId>org.dataconservancy</groupId>
     <artifactId>project-pom</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
   </parent>
   
 </project>
